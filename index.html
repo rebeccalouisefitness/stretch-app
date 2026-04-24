@@ -143,6 +143,9 @@
     .nav-btn:disabled { opacity: 0.3; cursor: default; }
     .nav-btn.primary { background: #9b85d6; color: #fff; box-shadow: 0 3px 10px rgba(155,133,214,0.35); }
   </style>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 </head>
 <body>
 
@@ -150,18 +153,18 @@
 <div id="home" class="screen active">
   <div class="home-header">
     <div class="logo-wrap">
-      <svg viewBox="0 0 120 120" class="logo-svg" xmlns="http://www.w3.org/2000/svg">
-        <!-- soft lilac star background -->
-        <path d="M60 8 L72 44 L110 48 L82 72 L92 110 L60 90 L28 110 L38 72 L10 48 L48 44 Z" fill="#c8b5f0" stroke="#9b85d6" stroke-width="3" stroke-linejoin="round"/>
-        <!-- yellow inner star -->
-        <path d="M60 28 L66 50 L88 52 L72 66 L78 88 L60 76 L42 88 L48 66 L32 52 L54 50 Z" fill="#ffe35a"/>
-        <!-- cute face -->
-        <circle cx="50" cy="60" r="3" fill="#5d3f8e"/>
-        <circle cx="70" cy="60" r="3" fill="#5d3f8e"/>
-        <path d="M52 68 Q60 74 68 68" stroke="#5d3f8e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-        <!-- pink cheeks -->
-        <circle cx="44" cy="65" r="3" fill="#ffb3c7" opacity="0.7"/>
-        <circle cx="76" cy="65" r="3" fill="#ffb3c7" opacity="0.7"/>
+      <svg viewBox="0 0 512 512" class="logo-svg" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lilacgrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#d8c8f5"/>
+            <stop offset="100%" stop-color="#b9a0e8"/>
+          </linearGradient>
+        </defs>
+        <g transform="translate(256 260)">
+          <path d="M 0 -200 L 50 -70 L 190 -60 L 78 30 L 118 170 L 0 100 L -118 170 L -78 30 L -190 -60 L -50 -70 Z" fill="url(#lilacgrad)" stroke="#9b85d6" stroke-width="10" stroke-linejoin="round"/>
+          <path d="M -40 -90 Q -40 -104 -26 -104 L 36 -104 Q 58 -104 58 -82 Q 58 -58 36 -58 L -20 -58 Q -46 -58 -46 -30 Q -46 0 -20 0 L 36 0 Q 58 0 58 22 Q 58 46 36 46 L -30 46" fill="none" stroke="#ffe35a" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M -40 -90 Q -40 -104 -26 -104 L 36 -104 Q 58 -104 58 -82 Q 58 -58 36 -58 L -20 -58 Q -46 -58 -46 -30 Q -46 0 -20 0 L 36 0 Q 58 0 58 22 Q 58 46 36 46 L -30 46" fill="none" stroke="#d6a73e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+        </g>
       </svg>
     </div>
     <h1>Stretch &amp; Move!</h1>
