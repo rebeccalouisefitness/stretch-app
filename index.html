@@ -198,9 +198,9 @@ const data = {
     label: 'Horse Riding', icon: '🐴',
     numBg: '#FFF3DC', numColor: '#8B5E00',
     stretches: [
-      { name: 'Tricep Stretch', dur: '10 sec', file: 'videos/riding-1.mov' },
-      { name: 'Inner Thigh Stretch', dur: '10 sec', file: 'videos/riding-2.mov' },
-      { name: 'Wide Leg Stretch', dur: '10 sec', file: 'videos/riding-3.mov' },
+      { name: 'Tricep Stretch', dur: '10 sec', file: 'riding-1.mp4' },
+      { name: 'Inner Thigh Stretch', dur: '10 sec', file: 'riding-2.mp4' },
+      { name: 'Wide Leg Stretch', dur: '10 sec', file: 'riding-3.mp4' },
     ],
     skills: []
   },
@@ -208,29 +208,29 @@ const data = {
     label: 'Gymnastics', icon: '🤸',
     numBg: '#EEE8FD', numColor: '#4B3B99',
     stretches: [
-      { name: 'Elevated Hamstring Stretch', dur: '10 sec', file: 'videos/gymnastics-1.mov' },
-      { name: 'Butterfly', dur: '10 sec', file: 'videos/gymnastics-2.mov' },
-      { name: 'Kneeling Leg Stretch', dur: '10 sec', file: 'videos/gymnastics-3.mov' },
+      { name: 'Elevated Hamstring Stretch', dur: '10 sec', file: 'gymnastics-1.mp4' },
+      { name: 'Butterfly', dur: '10 sec', file: 'gymnastics-2.mp4' },
+      { name: 'Kneeling Leg Stretch', dur: '10 sec', file: 'gymnastics-3.mp4' },
     ],
     skills: [
-      { name: 'Pull Over', dur: '10 sec', file: 'videos/gymnastics-skill-1.mov' },
-      { name: 'Underswing', dur: '10 sec', file: 'videos/gymnastics-skill-2.mov' },
+      { name: 'Pull Over', dur: '10 sec', file: 'gymnastics-skill-1.mp4' },
+      { name: 'Underswing', dur: '10 sec', file: 'gymnastics-skill-2.mp4' },
     ]
   },
   soccer: {
     label: 'Soccer', icon: '⚽',
     numBg: '#E3F5DC', numColor: '#2D6E1A',
     stretches: [
-      { name: 'Hip Circles', dur: '10 sec', file: 'videos/soccer-1.mov' },
-      { name: 'Backward Arm Circles', dur: '10 sec', file: 'videos/soccer-2.mov' },
-      { name: 'Leg Stretch', dur: '10 sec', file: 'videos/soccer-3.mov' },
+      { name: 'Hip Circles', dur: '10 sec', file: 'soccer-1.mp4' },
+      { name: 'Backward Arm Circles', dur: '10 sec', file: 'soccer-2.mp4' },
+      { name: 'Leg Stretch', dur: '10 sec', file: 'soccer-3.mp4' },
     ],
     skills: []
   }
 };
 
 const driveIds = {
-  'videos/intro.mov': '1lCiNpWF-jnCtNYHFnyanoamZbUOGMXEO',
+  'intro.mp4': '1lCiNpWF-jnCtNYHFnyanoamZbUOGMXEO',
 };
 function driveUrl(f) { const id = driveIds[f]; return id ? 'https://drive.google.com/uc?export=download&id=' + id : f; }
 
